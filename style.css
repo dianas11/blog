@@ -1,7 +1,9 @@
-/* the calss to style the main image */
+
 *{
   box-sizing: border-box;
 }
+
+/* the css to style the main image and content */
 .section-intro header{
   height: 820px;
   background-size: cover;
@@ -15,31 +17,24 @@
   font-size: 2em;
   margin: auto;
   color: rgba(0, 0, 0,0.9) ;
-  }
-   /*  bar class is for the entire nav bar style */
-.navbar {
-  padding: 8px;
 }
+
+/*entire nav item right padding*/
 .nav-item{
   padding-right: 20px;
 }
-/* bar class with a as the child class will style only the anchor elements  */
+
+/* navbar class with a as the child class will style only the anchor elements  */
 .navbar a {
   font-size: 1.2em;
   font-weight: bold;
-  color: rgb(9, 11, 22);
   padding: 10px;
   font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
+/*to hover over the nav-items*/
 li a:hover {
   background-color: #555;
   color: white;
-}
-
-
-
-.navbar-brand{
-  padding-right: opx;
 }
 
 /* about content interior */
@@ -54,6 +49,8 @@ li a:hover {
 .content {
   padding: 30px;
 } 
+
+
 /*responsive images*/ 
 .carousel-inner img{
   width: 100%;
@@ -71,14 +68,13 @@ li a:hover {
 
 .end {
   justify-content: center;
-  padding: 20px;
+  padding: 50px;
   display: flex;
-
-  /* display: inline; */
+/* display: inline; */
 }
 
 .contact{
-  color: blueviolet;
+  color: black;
 }
  
 
